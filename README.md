@@ -3,17 +3,6 @@ webcam-pulse-detector
 -----------------------
 
 -------------------
-
-UPDATE: Stand-alone (no dependancy) precompiled application now available!
- - Download for Windows 7 and 8: [webcam-pulse-detector_win.zip](http://sourceforge.net/projects/webcampulsedetector/files/webcam-pulse-detector_win.zip/download) (42 Mb) 
- - Download for Mac OSX 10.6 (and later): [webcam-pulse-detector_mac.zip](http://sourceforge.net/projects/webcampulsedetector/files/webcam-pulse-detector_mac.zip/download) (21 Mb)
- - Debian/Ubuntu/Mint Linux: Coming very soon. For now, it is recommended that you run from source on the `no_openmdao` branch if you just want to test things out.
-
-The application can be run by simply executing the binary contained in the zip file for your platform.
-This code can also be run from source by [following the instructions below](#running-from-source).
- 
--------------------
-
 A python code that detects the heart-rate of an individual using a common webcam or network IP camera. 
 Tested on OSX 10.7, 10.8, 10.9, Ubuntu 13.04 (Ringtail), and Windows 7 & 8.
 
@@ -24,12 +13,7 @@ more general take on the offline post-processing methodology).
 This goal is comparable to those of a few previous efforts in this area 
 (such as https://github.com/mossblaser/HeartMonitor).
 
-This code was developed at [NASA Glenn Research Center](http://www.nasa.gov/centers/glenn) in 
-support of [OpenMDAO](http://openmdao.org/), under the Aeronautical Sciences Project in NASA's 
-[Fundamental Aeronautics Program](http://www.aeronautics.nasa.gov/fap/), as well as the Crew State Monitoring Element 
-of the Vehicle Systems Safety Technologies Project, in NASA’s 
-[Aviation Safety Program](http://www.aeronautics.nasa.gov/programs_avsafe.htm).
-
+T
 How it works:
 -----------------
 This application uses [OpenCV](http://opencv.org/) to find the location of the user's face, then isolate the forehead region. Data is collected
